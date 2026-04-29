@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose a new feature or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      description: Which service is this request for?
+      options:
+        - Cards API
+        - Decks API
+        - Auth (Keycloak)
+        - alteredcore.org (website)
+        - General / Cross-service
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: A clear and concise description of what you want.
+      placeholder: I would like to be able to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      description: Why do you need this feature? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered any workarounds or alternative approaches?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other relevant information, mockups, or examples.
+    validations:
+      required: false
