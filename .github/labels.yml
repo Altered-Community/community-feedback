@@ -1,0 +1,54 @@
+# --- Type ---
+- name: bug
+  color: d73a4a
+  description: Something isn't working
+
+- name: enhancement
+  color: a2eeef
+  description: New feature or improvement suggestion
+
+- name: question
+  color: d876e3
+  description: Further information is requested
+
+# --- Service ---
+- name: cards-api
+  color: 0075ca
+  description: Related to the Cards API
+
+- name: decks-api
+  color: e4e669
+  description: Related to the Decks API
+
+- name: auth
+  color: d93f0b
+  description: Related to authentication / Keycloak
+
+- name: website
+  color: 0e8a16
+  description: Related to alteredcore.org
+
+- name: general
+  color: cccccc
+  description: General or cross-service topic
+
+# --- Status ---
+- name: needs-info
+  color: fbca04
+  description: Waiting for more information from the author
+
+- name: in-progress
+  color: 0052cc
+  description: Currently being worked on
+
+- name: duplicate
+  color: cfd3d7
+  description: This issue already exists
+
+- name: wontfix
+  color: ffffff
+  description: This will not be addressed
+
+- name: invalid
+  color: e4e669
+  description: This does not seem right
