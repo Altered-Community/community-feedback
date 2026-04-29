@@ -1,0 +1,30 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Affected project
+      placeholder: website / api / cards-db / infra
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      placeholder: Describe your idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is this useful?
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested solution
