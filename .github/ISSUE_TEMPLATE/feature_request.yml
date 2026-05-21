@@ -9,6 +9,7 @@ body:
       label: Service
       description: Which service is this request for?
       options:
+        - General / Cross-service
         - Cards API
         - Decks API
         - Collection API
@@ -16,7 +17,6 @@ body:
         - Auth (Keycloak)
         - alteredcore.org (website)
         - altered.re (website)
-        - General / Cross-service
     validations:
       required: true
 

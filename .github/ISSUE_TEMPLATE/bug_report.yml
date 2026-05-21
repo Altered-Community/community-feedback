@@ -9,6 +9,7 @@ body:
       label: Service
       description: Which service is affected?
       options:
+        - General
         - Cards API
         - Decks API
         - Collection API

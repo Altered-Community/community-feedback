@@ -9,6 +9,7 @@ body:
       label: Service
       description: Which service is your question about?
       options:
+        - General
         - Cards API
         - Decks API
         - Collection API
@@ -16,7 +17,6 @@ body:
         - Auth (Keycloak)
         - alteredcore.org (website)
         - altered.re (website)
-        - General
     validations:
       required: true
 
