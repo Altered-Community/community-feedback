@@ -11,8 +11,11 @@ body:
       options:
         - Cards API
         - Decks API
+        - Collection API
+        - Ownership
         - Auth (Keycloak)
         - alteredcore.org (website)
+        - altered.re (website)
         - General
     validations:
       required: true

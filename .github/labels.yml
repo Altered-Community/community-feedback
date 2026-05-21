@@ -19,14 +19,26 @@
 - name: decks-api
   color: e4e669
   description: Related to the Decks API
+  
+- name: collection-api
+  color: e4e669
+  description: Related to the Collection API
+
+- name: ownership
+  color: 6f42c1
+  description: Related to card ownership and deck ownership features
 
 - name: auth
   color: d93f0b
   description: Related to authentication / Keycloak
-
-- name: website
+  
+- name: alteredcore.org website
   color: 0e8a16
   description: Related to alteredcore.org
+
+- name: altered.re website
+  color: 0e8a16
+  description: Related to altered.re
 
 - name: general
   color: cccccc

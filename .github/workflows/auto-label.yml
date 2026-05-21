@@ -22,12 +22,15 @@ jobs:
             const service = match[1].trim();
 
             const serviceMap = {
-              'Cards API':               { label: 'cards-api', color: '0075ca' },
-              'Decks API':               { label: 'decks-api', color: 'e4e669' },
-              'Auth (Keycloak)':         { label: 'auth',      color: 'd93f0b' },
-              'alteredcore.org (website)': { label: 'website', color: '0e8a16' },
-              'General / Cross-service': { label: 'general',   color: 'cccccc' },
-              'General':                 { label: 'general',   color: 'cccccc' },
+              'Cards API':                 { label: 'cards-api',               color: '0075ca' },
+              'Decks API':                 { label: 'decks-api',               color: 'e4e669' },
+              'Collection API':            { label: 'collection-api',          color: 'e4e669' },
+              'Ownership':                 { label: 'ownership',               color: '6f42c1' },
+              'Auth (Keycloak)':           { label: 'auth',                    color: 'd93f0b' },
+              'alteredcore.org (website)': { label: 'alteredcore.org website', color: '0e8a16' },
+              'altered.re (website)':      { label: 'altered.re website',      color: '0e8a16' },
+              'General / Cross-service':   { label: 'general',                 color: 'cccccc' },
+              'General':                   { label: 'general',                 color: 'cccccc' },
             };
 
             const entry = serviceMap[service];
