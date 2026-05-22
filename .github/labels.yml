@@ -24,6 +24,10 @@
   color: e4e669
   description: Related to the Collection API
 
+- name: bga
+  color: e85d04
+  description: Related to Board Game Arena integration
+
 - name: ownership
   color: 6f42c1
   description: Related to card ownership and deck ownership features

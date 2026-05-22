@@ -13,6 +13,7 @@ body:
         - Cards API
         - Decks API
         - Collection API
+        - Board Game Arena
         - Ownership
         - Auth (Keycloak)
         - alteredcore.org (website)
